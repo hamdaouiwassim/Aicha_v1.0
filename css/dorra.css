@@ -1,0 +1,81 @@
+/*
+ Dorra front-end library v1.0
+ Created by Hamdaoui wassim
+
+*/
+@font-face {
+   
+
+   font-family: "Amiri";
+   src: url(../fonts/Amiri/Amiri-Regular.ttf);
+    font-family: "Amiri bold";
+   src: url(../fonts/Amiri/Amiri-Bold.ttf);
+    font-family: "Amiri bold italic";
+   src: url(../fonts/Amiri/Amiri-BoldItalic.ttf);
+    font-family: "Amiri italic";
+   src: url(../fonts/Amiri/Amiri-Italic.ttf);
+    
+    
+
+
+
+
+}
+
+
+*{
+  box-sizing: border-box;
+  font-family: "Amiri italic";
+  color:#576574;
+  
+}
+html,
+body{
+direction: rtl;
+width:100%;
+padding: 0;
+margin:0;
+}
+.dcontainer{
+font-size: 20px;
+width:100%;
+padding:0;
+margin:0;
+}
+.drow{
+width:100%;
+padding:20px;
+margin:0;
+    
+}
+.dmenu{
+  overflow: hidden;
+  padding: 0;
+  direction: rtl;
+  width:100%;
+  max-height: 60px;
+  background-color:#576574;
+}
+
+.dmenu a{
+  padding:15px 20px;
+  color:#f5f6fa;
+  text-decoration: none;
+  font-size: 23px;
+  line-height: 50px;
+  /*font-family: "Harmattan-Regular";*/
+  font-weight: bold;
+    transition: all 2s;
+}
+.dmenu a:hover{
+border-right:5px #f5f6fa solid;
+background-color:#f5f6fa;
+    color:#576574;
+}
+
+@media  screen and (min-width: 500px) {
+  .dmenu a{
+    width:100%;
+  }
+
+}
