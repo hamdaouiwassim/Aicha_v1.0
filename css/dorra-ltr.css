@@ -1,0 +1,74 @@
+/*
+ Dorra front-end library v1.0
+ Created by Hamdaoui wassim
+
+*/
+
+
+
+*{
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+  color:#576574;
+  
+}
+html,
+body{
+width:100%;
+padding: 0;
+margin:0;
+}
+.dcontainer{
+font-size: 18px;
+width:100%;
+padding:0;
+margin:0;
+}
+.drow{
+width:100%;
+padding:20px;
+margin:0;
+    background-color: #c8d6e5;
+}
+.drow-white{
+width:100%;
+padding:20px;
+margin:0;
+background-color:white;
+}
+.dmenu{
+  overflow: hidden;
+  padding: 0;
+  width:100%;
+  max-height: 60px;
+  background-color:#576574;
+}
+
+.dmenu a{
+  padding:15px 20px;
+  color:#f5f6fa;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 50px;
+  /*font-family: "Harmattan-Regular";*/
+  
+    transition: all 2s;
+}
+.dmenu a:hover{
+border-left:5px #f5f6fa solid;
+background-color:#f5f6fa;
+    color:#576574;
+}
+
+
+
+
+.centred{
+    text-align: center;
+}
+@media  screen and (min-width: 500px) {
+  .dmenu a{
+    width:100%;
+  }
+
+}
