@@ -1,2 +1,2 @@
 # Dorra_v1.0
-Free front-end framework for arabic websites
+free and open-source front-end library for designing arabic websites and arabic web applications.
