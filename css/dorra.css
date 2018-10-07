@@ -7,7 +7,7 @@
    
 
    font-family: "Arimo";
-   src: url(../fonts/arimo/Arimo-Regular.ttf);
+   src: url(../fonts/Arimo/Arimo-Regular.ttf);
     font-family: "Arimo bold";
    src: url(../fonts/Arimo/Arimo-Bold.ttf);
     font-family: "Arimo bold italic";
@@ -25,57 +25,30 @@
 
 *{
   box-sizing: border-box;
-  font-family: "Arimo italic";
+  font-family: "Arimo",sans-serif;
   color:#576574;
+  font-size:16px;
   
 }
 html,
 body{
-direction: rtl;
+  font-family: "Arimo";
 width:100%;
 padding: 0;
 margin:0;
 }
 .dcontainer{
-font-size: 20px;
+font-family: "Arimo";
+font-size: 16px;
 width:100%;
 padding:0;
 margin:0;
 }
 .drow{
+font-family: "Arimo bold";
 width:100%;
 padding:20px;
 margin:0;
     
 }
-.dmenu{
-  overflow: hidden;
-  padding: 0;
-  direction: rtl;
-  width:100%;
-  max-height: 60px;
-  background-color:#576574;
-}
 
-.dmenu a{
-  padding:15px 20px;
-  color:#f5f6fa;
-  text-decoration: none;
-  font-size: 23px;
-  line-height: 50px;
-  /*font-family: "Harmattan-Regular";*/
-  font-weight: bold;
-    transition: all 2s;
-}
-.dmenu a:hover{
-border-right:5px #f5f6fa solid;
-background-color:#f5f6fa;
-    color:#576574;
-}
-
-@media  screen and (min-width: 500px) {
-  .dmenu a{
-    width:100%;
-  }
-
-}
