@@ -3,24 +3,7 @@
  Created by Hamdaoui wassim
 
 */
-@font-face {
-   
 
-   font-family: "Arimo";
-   src: url(../fonts/Arimo/Arimo-Regular.ttf);
-    font-family: "Arimo bold";
-   src: url(../fonts/Arimo/Arimo-Bold.ttf);
-    font-family: "Arimo bold italic";
-   src: url(../fonts/Arimo/Arimo-BoldItalic.ttf);
-    font-family: "Arimo italic";
-   src: url(../fonts/arimo/Arimo-Italic.ttf);
-    
-    
-
-
-
-
-}
 
 
 *{
@@ -32,23 +15,72 @@
 }
 html,
 body{
-  font-family: "Arimo";
 width:100%;
 padding: 0;
 margin:0;
 }
 .dcontainer{
-font-family: "Arimo";
-font-size: 16px;
 width:100%;
 padding:0;
 margin:0;
 }
 .drow{
-font-family: "Arimo bold";
 width:100%;
 padding:20px;
 margin:0;
     
+}
+.drow p{
+  
+  font-family: "Arimo",sans-serif;
+  
+  
+}
+/* DORRA FRAMEWORK HEADING */
+
+h1{font-size:40px;}
+h2{font-size:34px;}
+h3{font-size:28px;}
+h4{font-size:22px;}
+h5{font-size:16px;}
+h6{font-size:12px;}
+
+/* DORRA FRAMEWORK MENU */
+
+
+.dmenu{
+  overflow: hidden;
+  padding: 0;
+  height:60px;
+  width:100%;
+  background-color:#7ed6df;
+
+}
+.dmenu ul{
+  padding: 0;
+}
+.dmenu ul li{
+  margin:0;
+  line-height: 30px;
+  display: table-cell;
+  background-color:#7ed6df;
+}
+.dmenu ul .dlist-item{
+  list-style-type: none;
+}
+.dmenu ul .dlist-item a{
+  padding:25px;
+  background-color:#7ed6df;
+  color:white;
+  text-decoration:none;
+  margin:0px;
+  
+}
+.dmenu ul .dlist-item a:hover{
+  padding:25px;
+  background-color:#22a6b3;
+  color:white;
+  text-decoration:none;
+  margin:0px;
 }
 
