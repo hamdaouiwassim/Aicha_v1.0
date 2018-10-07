@@ -84,3 +84,31 @@ h6{font-size:12px;}
   margin:0px;
 }
 
+/* DORRA FRAMEWORK QUOTE */
+p{
+  line-height: 1.5em;
+}
+.quote{
+  font-family: "Arimo",sans-serif;
+  text-align: center;
+  /*border-radius:10px;*/
+  padding: 40px;
+  margin:2% 20%;
+  font-size:16px;
+  font-style: italic;
+  background-color: #95afc0;
+  color:#dff9fb;
+  font-weight: lighter;
+}
+.quote i.fa-quote-left{
+  position: relative;
+  left:-5%;
+  font-size:20px;
+color:#dff9fb;
+}
+.quote i.fa-quote-right{
+  position: relative;
+  right:-5%;
+  font-size:20px;
+color:#dff9fb;
+}
