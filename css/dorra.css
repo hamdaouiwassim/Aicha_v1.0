@@ -11,13 +11,13 @@ html,body{width:100%;padding: 0;margin:0;}
 .dcontainer{width:100%;padding:0;margin:0;}
 .drow{width:100%;padding:20px;margin:0;}
 .drow p{font-family: "Arimo",sans-serif; }
-/* DORRA FRAMEWORK HEADING */
-h1{font-size:40px;}
-h2{font-size:34px;}
-h3{font-size:28px;}
-h4{font-size:22px;}
-h5{font-size:16px;}
-h6{font-size:12px;}
+/* ===================== DORRA FRAMEWORK HEADING ===================== */
+h1{font-size:40px;}h1.dprimary{color:#c23616;}
+h2{font-size:34px;}h2.dprimary{color:#c23616;}
+h3{font-size:28px;}h3.dprimary{color:#c23616;}
+h4{font-size:22px;}h4.dprimary{color:#c23616;}
+h5{font-size:16px;}h5.dprimary{color:#c23616;}
+h6{font-size:12px;}h6.dprimary{color:#c23616;}
 /* ===================== DORRA FRAMEWORK MENU ===================== */
 .dmenu{overflow: hidden;padding: 0;height:60px;width:100%;}
 .dmenu ul{padding: 0;}
@@ -26,15 +26,15 @@ h6{font-size:12px;}
 .dmenu ul .dlist-item a{padding:25px;text-decoration:none;margin:0px;}
 .dmenu ul .dlist-item a:hover{padding:25px;text-decoration:none;margin:0px;}
 /* ===> Default Menu Style */
-.ddefault{background-color:#7ed6df;}
-.ddefault ul li{background-color:#7ed6df;}
-.ddefault ul .dlist-item a{background-color:#7ed6df;color:white;}
-.ddefault ul .dlist-item a:hover{background-color:#22a6b3;color:white;}
+div.ddefault{background-color:#7ed6df;}
+div.ddefault ul li{background-color:#7ed6df;}
+div.ddefault ul .dlist-item a{background-color:#7ed6df;color:white;}
+div.ddefault ul .dlist-item a:hover{background-color:#22a6b3;color:white;}
 /* ===> Primary Menu Style */
-.dprimary{background-color:#c23616;}
-.dprimary ul li{background-color:#c23616;}
-.dprimary ul .dlist-item a{background-color:#c23616;color:white;}
-.dprimary ul .dlist-item a:hover{background-color:#e84118;color:white;}
+div.dprimary{background-color:#c23616;}
+div.dprimary ul li{background-color:#c23616;}
+div.dprimary ul .dlist-item a{background-color:#c23616;color:white;}
+div.dprimary ul .dlist-item a:hover{background-color:#e84118;color:white;}
 
 /* ===================== DORRA FRAMEWORK QUOTE ===================== */
 p{line-height: 1.5em;}
